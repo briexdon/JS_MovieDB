@@ -85,12 +85,3 @@ document.addEventListener('DOMContentLoaded', () => {
 	makeChanges();
 	createMovieList(movieDB.movies, movieList);
 });
-
-
-const obj = {
-	name: 'john',
-	age: 25,
-};
-
-console.log(obj.name);  - отримуємо значення  свойства обєкта через крапку.
-console.log(obj[`age`]); - щоб отримати значення свойства обєкта через квадратні дужки, потрібно свойство взяти в лапки.
